@@ -1,0 +1,136 @@
+p {
+    line-height: 2rem;
+    color: hsl(0, 0%, 48%);
+}
+
+.nav-div {
+    padding: 2% 10%;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+#header {
+    position: relative;
+    z-index: 1;
+}
+
+#main {
+    background-color: hsl(0, 0%, 95%);
+    padding: 1% 0 5%;
+}
+
+.container-fluid {
+    background-color: white;
+    border-radius: 10px;
+    width: 50%;
+    margin: 20px auto;
+    padding: 4%;
+    position: relative;
+    top:-130px;
+    z-index: 100;
+}
+
+.pad-correction {
+    padding-bottom: 0;
+}
+
+.top-container {
+    position: relative;
+    top: -75px;
+}
+
+.sub-container {
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 4%;
+    position: relative;
+    border-style: solid;
+    border-color: grey;
+    border-width: 1px;
+}
+
+#alt-logo {
+    margin: 0 auto 5px;
+    display: block;
+    margin-bottom: 40px;
+}
+
+.center {
+    text-align: center;
+}
+
+.projectButton {
+	background-color:#147b74;
+    border: none;
+	border-radius:42px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:14px;
+	padding:12px 20px;
+	text-decoration:none;
+	text-shadow:none;
+}
+.projectButton:hover {
+	background-color:wheat;
+}
+.projectButton:active {
+	position:relative;
+	top:1px;
+}
+
+.dimmedButton {
+    background-color:grey;
+}
+
+.dimmedButton:hover {
+    background-color: grey;
+}
+
+.btn {
+    border-radius:42px;
+    padding: 0 10px 0 0;
+}
+
+.col {
+    text-align: center;
+}
+
+.left-border {
+    border-left: grey;
+    border-left-width: 1px;
+    border-left-style: solid;
+}
+
+.progress {
+    margin-top: 40px;
+}
+
+.progress-bar {
+    background-color: #147b74
+}
+
+.item-name {
+    text-align: left;
+    margin: 0;
+}
+
+.pledge {
+    text-align: right;
+    color: hsl(176, 50%, 47%);
+    margin:0;
+}
+
+.quantity {
+    font-weight: bold;
+    color: black;
+    font-size: large;
+}
+
+.blocked-out {
+    opacity: .5;
+}
