@@ -3,6 +3,14 @@ p {
     color: hsl(0, 0%, 48%);
 }
 
+hr {
+    width: 10px;
+    color: grey;
+    width: 100%;
+}
+
+
+/* Navbar */
 .nav-div {
     padding: 2% 10%;
 }
@@ -10,6 +18,9 @@ p {
 .navbar-light .navbar-nav .nav-link {
     color: white;
 }
+
+
+/* Sections */
 
 #header {
     position: relative;
@@ -20,6 +31,9 @@ p {
     background-color: hsl(0, 0%, 95%);
     padding: 1% 0 5%;
 }
+
+
+/* Containers */
 
 .container-fluid {
     background-color: white;
@@ -38,7 +52,7 @@ p {
 
 .top-container {
     position: relative;
-    top: -75px;
+    top: -80px;
 }
 
 .sub-container {
@@ -52,6 +66,8 @@ p {
     border-width: 1px;
 }
 
+
+
 #alt-logo {
     margin: 0 auto 5px;
     display: block;
@@ -61,6 +77,8 @@ p {
 .center {
     text-align: center;
 }
+
+/* Buttons */
 
 .projectButton {
 	background-color:#147b74;
@@ -76,7 +94,7 @@ p {
 	text-shadow:none;
 }
 .projectButton:hover {
-	background-color:wheat;
+	background-color:grey;
 }
 .projectButton:active {
 	position:relative;
@@ -96,6 +114,9 @@ p {
     padding: 0 10px 0 0;
 }
 
+
+/* Bootstrap updates */
+
 .col {
     text-align: center;
 }
@@ -113,6 +134,8 @@ p {
 .progress-bar {
     background-color: #147b74
 }
+
+/* Sub containers. */
 
 .item-name {
     text-align: left;
@@ -133,4 +156,58 @@ p {
 
 .blocked-out {
     opacity: .5;
+}
+
+/* Modal */
+
+.modal {
+    height: calc(80% - 1rem);
+    overflow: hidden;
+    overflow-y: scroll;
+    top: 10%;
+}
+
+
+.container-modal {
+    background-color: white;
+    border-radius: 10px;
+    width: 50%;
+    margin: 20px auto;
+    padding: 4%;
+}
+
+.close-btn {
+    float: right;
+    font-size:24px;
+    cursor: pointer;
+}
+
+.pledge-modal {
+    text-align: left;
+    color: hsl(176, 50%, 47%);
+    margin:0;
+}
+
+.item-name-modal {
+    text-align: right;
+    font-weight: bold;
+    color: black;
+    font-size: large;
+}
+
+.enter-amount {
+    display: none;
+}
+
+.modal-selectable:hover {
+    border-color: lightskyblue;
+    border-width: 4px;
+    border-style: solid;
+    /* cursor: pointer; */
+}
+
+.money-input {
+    width: 80%;
+    height: 100%;
+    border-radius: 42px;
 }
